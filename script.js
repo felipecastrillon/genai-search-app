@@ -4,10 +4,9 @@ var es_results = document.getElementById("es_results");
 var studio_project_id = "ajarvis1-156916";
 var es_project_num = "258636641201";
 var es_endpoint_name = "ups-test_1684510669628";
-var token = "ya29.a0AWY7CkmX3T4SAshiSTsXJWib908unqk07_d_KofAi5h6GgTf4fxfiT_9W_xdVeG1FGz7a2PBufbGI87t37xiaKZgBumN7z_1KO7orSL20vXgOOp6YWeJp5qlDHcUMbLchM3WBX31_SNY_bfdzQZx0G1Ly0dAgQpPcfF_dQaCgYKAboSAQ4SFQG1tDrpQb4Sa7OhytzRd6YI_PSV4A0173"
+var token = "ya29.a0AWY7Ckk_KKOSSlf0RNxUSSLlPKXFdjNB6MrVCADvP4p_RQ1OGxjDxddfSStHViZm63DlwAChZGqED2QQ6i2cJN6rxAmjNc8zGHvo8IzAPENuxk6Da4GmNVSYRetSJvhTIywRGry9sVHUFXboytCVS8Yanvh7ORROuH_HOgaCgYKAV4SAQ4SFQG1tDrpgIMWCFrubTPURGqXT9pe-Q0173";
 
 function get_search(e){
-console.log(e.keyCode)
 
 if (e.keyCode === 13) {
   const searchTerm = document.getElementById("search-input").value; 
