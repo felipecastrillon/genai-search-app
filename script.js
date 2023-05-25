@@ -1,10 +1,10 @@
 var search = document.getElementById("search-input");
 var palm_results = document.getElementById("palm_results");
 var es_results = document.getElementById("es_results");
-var studio_project_id = "ajarvis1-156916";
-var es_project_num = "258636641201";
-var es_endpoint_name = "ups-test_1684510669628";
-var token = "ya29.a0AWY7Ckk_KKOSSlf0RNxUSSLlPKXFdjNB6MrVCADvP4p_RQ1OGxjDxddfSStHViZm63DlwAChZGqED2QQ6i2cJN6rxAmjNc8zGHvo8IzAPENuxk6Da4GmNVSYRetSJvhTIywRGry9sVHUFXboytCVS8Yanvh7ORROuH_HOgaCgYKAV4SAQ4SFQG1tDrpgIMWCFrubTPURGqXT9pe-Q0173";
+var studio_project_id = "";
+var es_project_num = "";
+var es_endpoint_name = "";
+var token = "";
 
 function get_search(e){
 
