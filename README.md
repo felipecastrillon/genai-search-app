@@ -5,7 +5,7 @@
 This UI demo uses GCP's Vertex Palm API and Enterprise Search API to generate results from an input field
 
 ## Assumptions
-This demo assumes you have a Studio and Enterprise Search instance running
+This demo assumes you have Vertex API enabled and an Enterprise Search instance set up
 
 ## Steps to Set Up
 1) clone your repository in your local
