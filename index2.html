@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Front End App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <img src='Cymbal-logo.png' class="image">
+  <div class="search-bar">
+    <input type="text" class="search-input" id="search-input"  placeholder="search..." onkeyup="get_search(event)">
+  </div>
+ 	<div class="split-pane">
+		<div class="pane">
+		<h2>Results:</h2>
+		<ul id="palm_results"></ul>
+     	</div>
+		<div class="pane">
+		<h2>Results From Internal Sources:</h2>
+		<ul id="es_results"></ul>
+    
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
