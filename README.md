@@ -1,5 +1,7 @@
 # genai-search-app
 
+![alt text](https://github.com/felipecastrillon/genai-search-app/blob/main/sample.png)
+
 This UI demo uses GCP's Vertex Palm API and Enterprise Search API to generate results from an input field
 
 ## Assumptions
